@@ -55,7 +55,7 @@ in any **companies** that are on the platform.
 
 #### Investor
 
-* An `investors` has many `investments`
+* An `investor` has many `investments`
 * An `investor` has a **total dollar amount** invested
 * The total an `investor` pays on an `investment` is the `amount + fees`.
 * The total an `investor` has invested for a particular `investment` is the `amount` **not including** the `fees`.
