@@ -25,7 +25,7 @@
                             <tbody>
                                 <template v-for="investment in filteredInvestments">
                                     <tr>
-                                        <td>{{ investment.investor.name }}</td>
+                                        <td>{{ investment.investor.first_name }} {{ investment.investor.last_name }}</td>
                                         <td class="text-right">${{ investment.amount }}</td>
                                         <td class="text-right">${{ investment.fees }}</td>
                                     </tr>
