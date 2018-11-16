@@ -6,9 +6,9 @@ a small amount of Laravel Mix and Vue.js. You should also use [Postman](https://
 other API testing tool to be able to send requests to routes as if you were consuming
 an API.
 
-Even though one of the goals of this exercise is to guage
-your expertise when using Laravel, it is also as important to see **how** you think
-about solving the problems presented. This will help give us a clearer picture of what
+Even though one of the goals of this exercise is to guage your expertise when
+using Laravel, it is also as important to see **how** you think about solving
+the problems presented. This will help give us a clearer picture of what
 you would be like as a member on our team.
 
 Please work as you normally would, using whatever resources you find valuable
@@ -64,14 +64,12 @@ in any **companies** that are on the platform.
 
 NB: You may encounter various common errors along the way. Solve them as best you can.
 
-1. Clone the repository and set up your project like you would any other Laravel project.
 1. Create a feature branch to work on. As you work, commit your changes as you normally would.
-1. Install frontend dependencies (using npm or yarn) and start the Laravel Mix watcher.
-1. Run the migrations and seed the database.
-1. Create a host for the app to run on and visit the home URL to see that it's working.
-1. No Eloquent relationships have been created in any of the models. Open the `Company` model and create a relationship for the `Investment` model.
-1. Would you create relationships for other models now or wait? Why?
-1. Open the `CompaniesController` and follow the steps in each method. You will need to add the appropriate routes in `/routes/web.php`.
+2. Install frontend dependencies (using npm or yarn) and start the Laravel Mix watcher.
+3. Run the migrations and seed the database.
+4. No Eloquent relationships have been created in any of the models. Open the `Company` model and create a relationship for the `Investment` model.
+5. Would you create relationships for other models now or wait? Why?
+6. Open the `CompaniesController` and follow the steps in each method. You will need to add the appropriate routes in `/routes/web.php`.
 
 ## A Feature Request Has Come In!
 
@@ -80,6 +78,6 @@ A business need has come up that requires us to send a daily CSV report that inc
     "Company ID", "Company Name", "Total Dollars Raised", "Total Fees"
 
 1. Create a command that will retrieve the necessary data and email it to an email address specified in the command's signature.
-1. First, implement this without any 3rd party dependencies.
-1. Next, use [The PHP League CSV Package](https://github.com/thephpleague/csv) to write the CSV data.
-1. Discuss the pros and cons of using this package.
+2. First, implement this without any 3rd party dependencies.
+3. Next, use [The PHP League CSV Package](https://github.com/thephpleague/csv) to write the CSV data.
+4. Discuss the pros and cons of using this package.

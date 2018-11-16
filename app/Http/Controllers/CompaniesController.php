@@ -24,7 +24,7 @@ class CompaniesController extends Controller
     /**
      * Show a single company
      *
-     * @param  int $id [description]
+     * @param  int $id
      * @return view
      */
     public function show($id)

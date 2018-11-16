@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return "I'm working!";
+    return "Hello";
 });
 
 Route::get('companies', 'CompaniesController@index');
