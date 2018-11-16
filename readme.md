@@ -6,7 +6,7 @@ a small amount of Laravel Mix and Vue.js. You should also use [Postman](https://
 other API testing tool to be able to send requests to routes as if you were consuming
 an API.
 
-Even though one of the goals of this exercise is to guage your expertise when
+Even though one of the goals of this exercise is to gauge your expertise when
 using Laravel, it is also as important to see **how** you think about solving
 the problems presented. This will help give us a clearer picture of what
 you would be like as a member on our team.
