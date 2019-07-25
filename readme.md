@@ -1,4 +1,4 @@
-# MicroVentures Developer Quiz
+# MicroVentures Developer Exercise
 
 This is intended to be worked on in collaboration with the MicroVentures
 programming team. It uses [Laravel 5.5](https://laravel.com/docs/5.5), including
